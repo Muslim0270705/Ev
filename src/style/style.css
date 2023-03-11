@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif ;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    top: 35px;
+    left: 0;
+}
+
+.header-nav {
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    column-gap: 99px;
+}
+
+.header-title {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.header-menu {
+    display: flex;
+    column-gap: 30px;
+}
+
+.header-link, .header-call {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FCFCFC
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    column-gap: 43px;
+}
+
+.header-icon {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: rgba(252, 252, 252, 0.4);;
+}
+
+.begin {
+    background: url("../images/begin.png") center/cover no-repeat;
+    padding: 263px 0 204px;
+}
+
+.begin-content {
+    text-align: center;
+}
+
+.begin-title {
+    font-weight: 600;
+    font-size: 98px;
+    color: #FCFCFC;
+    margin-bottom: 50px;
+}
+
+.begin-btn {
+    padding: 16px 43px 18px;
+    border: 2px solid #FCFCFC;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FCFCFC;
+    cursor: pointer;
+    background-size: 300% 100%;
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.begin-btn:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.vertex{
+    padding: 140px 0;
+    position: relative;
+}
+.vertex-title{
+    margin-bottom:50px;
+
+}
+.vertex-desc{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 520;
+    font-size: 18px;
+    line-height: 150%;
+    color: #061B28;
+}
+.vertex-img{
+    position: absolute;
+    top:223px;
+    right: 0;
+}
+.tour{
+    padding-bottom: 205px;
+}
+.tour-title{
+    font-family: 'Oswald',sans-serif;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 115%;
+    color: #061B28;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.tour-row{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    flex-wrap: wrap;
+}
+.tour-card{
+    width: calc(33.33333% - 20px);
+}
+.tour-img{
+    width: 100%;
+    opacity: 0.8;
+}
